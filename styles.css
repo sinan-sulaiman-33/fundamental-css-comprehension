@@ -33,3 +33,33 @@ html {
   max-height: 100%
   float: right;
 }
+
+.card h2, .card p{
+  margin:0;
+}
+
+.card article{
+  height:12em;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.card h2{
+  font-size:2em;
+  height:1.5em;
+  padding-top:0.8em;
+  padding-left:1em;
+  font-weight:700;  
+}
+
+.card footer p{
+  font-size:1.5em;
+  font-weight:400;
+  height:1.7em;
+  padding: 1em, 1em, 0.3em, 1.5em;
+}
+
+.card article p{
+color: rgb(245, 238,238);
+padding: 1em 1em 1em 1.2em;
+line-height: 1.5em;
+}
